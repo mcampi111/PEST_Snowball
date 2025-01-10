@@ -13,14 +13,6 @@ The contribution of this work lies in three interrelated methodological advances
 1. The first contribution is to treat expertise as a property of a community of experts rather than as an individual attribute. In stage one of our methodology, we construct a snowball sample from an initial population of identified experts, delegating the identification of expertise to those within the community itself. If feasible, multiple snowball waves are used to rank levels of expertise within the community. The success of this stage relies on identifying a sufficient number of gatekeepers (or seeds) who are well-connected within their field.
 2. The second contribution is the use of snowball referrals to facilitate expert recruitment. Experts are recruited based on peer referrals, which are a reflection of their esteem within the community. The higher the number of referrals an individual receives, the more highly esteemed they are considered by their peers. This approach allows for a natural prioritization of experts who are recognized for their contributions, while also depending on the provision of appropriate incentives to continue recruitment. In our simulations, we assume a consistent response rate within the sampled population, though this may vary in practical settings.
 3. The third contribution focuses on determining the optimal point at which to conclude data gathering. In the context of quantitative research, a representative sample is sought, while qualitative research aims for data saturation—the point at which no new information emerges. We adopt a mixed-methods approach, aiming for a level of sampling that ensures a sufficient portion of the expert population has been covered to achieve what we call pseudo-representativeness. This is crucial for ensuring the collected data is sufficiently rich while avoiding unnecessary costs associated with prolonged data collection.
-4. 
-## Motivations For the Development of the Paper
-
-TOADD..
-
-## Methodology of the Paper
-
-TOADD
 
 ## Organization of the Repository
 TOADD
@@ -28,12 +20,12 @@ TOADD
 ```diff
 + 1) R_code 
 ```
-This folder contains the R code developed for the analysis of the paper. This is structured within the following folders:
+This folder contains the R code developed for the analysis of the paper. The code for running the simulations and obtaining the results, as detailed in the article for different types of networks considered, is given in the corresponding file. Please run the code in the respective files.
 
-1.  **blabla**. This folder contains blabla.
-2. **blabla**. This folder contains blabla.
-3.  **blabla**. This folder contains blabla.
-4.  **blabla**. This folder contains blabla.
+1.  Erdos-Renyi Networks-'PEST_Erdos_Renyi .R' file
+2.  Power Law Networks- 'PEST_Power_Law.R' file
+3.  Scale-Free Networks- 'Pest_Scale_Free.R' file
+4.  Small World Networks- 'PEST_Small_World.R' file
 
 ```diff
 + 2) paper 
